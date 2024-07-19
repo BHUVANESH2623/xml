@@ -1,0 +1,18 @@
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+    gap: 5px;
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .content{
+        display: flex;
+        overflow: auto;
+    }
+}

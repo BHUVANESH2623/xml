@@ -1,0 +1,17 @@
+.home{
+  display: flex;
+  padding: 10px;
+  height: 85vh;
+  width: 98.5vw;
+  gap: 5px;
+
+  .left{
+    flex: 4;
+  }
+  .center{
+    flex: 1.5;
+  }
+  .right{
+    flex: 3;
+  }
+}

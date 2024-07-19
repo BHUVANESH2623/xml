@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    color: rgb(5, 48, 96);
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+        gap: 20px;
+
+        .link{
+            text-decoration: none;
+        }
+    }
+}

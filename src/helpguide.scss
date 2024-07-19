@@ -1,0 +1,78 @@
+.helpguide-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  section {
+    margin-bottom: 20px;
+
+    h3 {
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    p, ul {
+      margin-bottom: 10px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    pre {
+      padding: 10px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+      list-style-type: disc;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .xml-sample {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+
+    span.element {
+      background-color: #e6f7ff;
+    }
+
+    span.attribute {
+      background-color: #fff7e6;
+    }
+
+    span.text {
+      background-color: #e6ffe6;
+    }
+
+    span.child-node {
+      background-color: #e6e6ff;
+    }
+  }
+}
